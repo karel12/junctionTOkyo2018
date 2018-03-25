@@ -1,0 +1,26 @@
+#####
+Build Unity Android/iOS:
+File -> Build Settings -> Select Platform -> Build /Build and run
+
+Troubleshooting: 
+- It sometimes happens that in Unity (5.3.4f1) the axis of the 3d model are messed up (reversed) (this can be seen in the app after connection, or directly in the editor after playe by teh fact that the 3d model is reversed - back to front)
+- In order to workaround this unity flaw (On a windows machine):
+	- Make sure android was configured as latest build platform and that Ctrl+B deploys to device
+	- Close unity/ restart unity
+	- The first thing after startub hit Ctrl-B and the app will be deployed to the android device
+	- This should fix the rotation and the model should be ok
+  	- This can be confired also by hitting play in the editor and the model is not reveresed anymore
+To fix iOS: 
+	- in windows after the fix build the solution for ios, the generated xcode project is correct
+
+
+:( I know this is a weird unity bug.
+
+##### 
+
+
+Mesh import:
+** Mesh import
+BCDS must provide 3d model in obj (Wavefront) format. 
+Import file using Blender, export file to 3DS (3D Studio Max) format
+Import to Assets folder, overwrite xdk mesh

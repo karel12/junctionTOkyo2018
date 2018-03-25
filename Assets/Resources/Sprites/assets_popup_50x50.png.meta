@@ -1,0 +1,221 @@
+fileFormatVersion: 2
+guid: 984abd6d030248944820b16f12b60d18
+timeCreated: 1461670302
+licenseType: Pro
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: popup_humidity
+    21300002: popup_illuminance
+    21300004: popup_sound
+    21300006: popup_settings
+    21300008: popup_temperature
+    21300010: popup_pressure
+    21300012: popup_compass
+    21300014: popup_sdcard
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 7
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -3
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: 2
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  allowsAlphaSplitting: 0
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: popup_humidity
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -5, y: 24}
+        - {x: -18, y: 4}
+        - {x: -18, y: -17}
+        - {x: -4, y: -22}
+        - {x: 13, y: -22}
+        - {x: 15, y: -20}
+        - {x: 18, y: -16}
+        - {x: 18, y: 4}
+        - {x: 10, y: 24}
+    - name: popup_illuminance
+      rect:
+        serializedVersion: 2
+        x: 50
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -11, y: 23}
+        - {x: -21, y: 19}
+        - {x: -23, y: 16}
+        - {x: -23, y: -11}
+        - {x: -22, y: -13}
+        - {x: -10, y: -22}
+        - {x: 4, y: -22}
+        - {x: 23, y: -14}
+        - {x: 23, y: 13}
+        - {x: 15, y: 23}
+    - name: popup_sound
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 0, y: 17}
+        - {x: -19, y: 12}
+        - {x: -20, y: 8}
+        - {x: -20, y: -7}
+        - {x: -1, y: -15}
+        - {x: 18, y: -15}
+        - {x: 22, y: -14}
+        - {x: 22, y: 11}
+        - {x: 16, y: 17}
+    - name: popup_settings
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: 19}
+        - {x: -17, y: 11}
+        - {x: -17, y: -13}
+        - {x: -11, y: -17}
+        - {x: 10, y: -17}
+        - {x: 19, y: -7}
+        - {x: 19, y: 9}
+        - {x: 14, y: 19}
+    - name: popup_temperature
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 7, y: 17}
+        - {x: 4, y: 23}
+        - {x: -4, y: 23}
+        - {x: -10, y: 20}
+        - {x: -11, y: -2}
+        - {x: -11, y: -15}
+        - {x: -6, y: -21}
+        - {x: 0, y: -21}
+        - {x: 3, y: -20}
+        - {x: 6, y: -16}
+        - {x: 7, y: -11}
+    - name: popup_pressure
+      rect:
+        serializedVersion: 2
+        x: 250
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -9, y: 23}
+        - {x: -17, y: 17}
+        - {x: -17, y: -21}
+        - {x: 16, y: -21}
+        - {x: 16, y: 21}
+        - {x: 11, y: 23}
+    - name: popup_compass
+      rect:
+        serializedVersion: 2
+        x: 300
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: 8, y: 20}
+        - {x: -10, y: 20}
+        - {x: -19, y: 11}
+        - {x: -19, y: -5}
+        - {x: -15, y: -18}
+        - {x: 15, y: -18}
+        - {x: 18, y: -6}
+        - {x: 18, y: 12}
+        - {x: 12, y: 19}
+    - name: popup_sdcard
+      rect:
+        serializedVersion: 2
+        x: 350
+        y: 0
+        width: 50
+        height: 50
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline:
+      - - {x: -15, y: -13}
+        - {x: -14, y: -15}
+        - {x: 15, y: -15}
+        - {x: 15, y: 18}
+        - {x: -5, y: 18}
+        - {x: -15, y: 8}
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
